@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, #FF94C8, #FFFFFF);
+    text-align: center;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.player {
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    height: 100vh;
+}
+
+.ipod {
+    width: 699px;
+    height: 394px;
+    position: relative;
+    display: inline-block;
+    left: 50px;
+}
+
+.ipod-img {
+    width:699px;
+}
+
+.clip-img {
+    position: absolute;
+    width: 296px;
+    height: 296px;
+    top: -55px;
+    left: -65px;
+}
+
+.aespa-img {
+    position: absolute;
+    top: 76px;
+    left: 53px;
+    width: 315px;
+    height: 239px;
+    border-radius: 3px;
+}
+
+.controles {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translateX(-50%);
+}
+
+.voltar {
+    width: 50px;
+    height: 50px;
+}
+
+#playPauseBtn {
+    width: 50px;
+    height: 50px;
+}
+
+.proximo {
+    width: 50px;
+    height: 50px;
+}
+
+#music-title {
+    font-size: 30px;
+}
+
+.cute_character img {
+    width: 500px;
+    height: 500px;
+}

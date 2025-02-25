@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="player">
+
+        <div class="ipod">
+            <img src="./img/ipod.png" alt="ipodImg"class="ipod-img">
+            <img src="./img/aespa.png" alt="aespaImg" class="aespa-img">"
+            <img src="./img/clip.png" alt="clipImg" class="clip-img">
+            <div class="tela" id="music-title" >Nenhuma música tocando</div>
+            
+            <div class="controles">
+                <button class="voltar" onclick="prevMusic()">⏮</button>
+                <button id="playPauseBtn" onclick="togglePlayPause()">▶</button>
+                <button class="proximo" onclick="nextMusic()">⏭</button>
+            </div>
+
+        </div>
+
+        <div class="cute_character">
+            <img src="./img/cute_character.png" alt="Personagem fofo">
+        </div>
+        
+        <audio id="audio" src="/songs/"></audio>
+
+    </div>
+    
+    <script src="music_player.js"></script>
+</body>
+</html>
